@@ -1,0 +1,109 @@
+{
+    "sections": [
+        {
+            "section": "Section 1",
+            "sequences": [
+                {
+                    "video": "Introduction to pfSense.mp4",
+                    "startSlide": "slide_1_1_1.png",
+                    "endSlide": "slide_1_1_2.png",
+                    "sequenceName": "1_1 Introduction to pfSense"
+                },
+                {
+                    "video": "Understanding the Importance of Network Security.mp4",
+                    "startSlide": "slide_1_2_1.png",
+                    "endSlide": "slide_1_2_2.png",
+                    "sequenceName": "1_2 Understanding the Importance of Network Security"
+                },
+                {
+                    "video": "Exploring the Features and Capabilities of pfSense.mp4",
+                    "startSlide": "slide_1_3_1.png",
+                    "endSlide": "slide_1_3_2.png",
+                    "sequenceName": "1_3 Exploring the Features and Capabilities of pfSense"
+                },
+                {
+                    "video": "Essential Tools and Resources for the Course.mp4",
+                    "startSlide": "slide_1_4_1.png",
+                    "endSlide": "slide_1_4_2.png",
+                    "sequenceName": "1_4 Essential Tools and Resources for the Course"
+                },
+                {
+                    "video": "Maximizing Your Learning Experience.mp4",
+                    "startSlide": "slide_1_5_1.png",
+                    "endSlide": "slide_1_5_2.png",
+                    "sequenceName": "1_5 Maximizing Your Learning Experience"
+                }
+            ]
+        },
+        {
+            "section": "Section 2",
+            "sequences": [
+                {
+                    "video": "Introduction to Proxmox.mp4",
+                    "startSlide": "slide_2_1_1.png",
+                    "endSlide": "slide_2_1_2.png",
+                    "sequenceName": "2_1 Introduction to Proxmox"
+                },
+                {
+                    "video": "Installation of pfSense on Virtualization Platform - Proxmox.mp4",
+                    "startSlide": "slide_2_2_1.png",
+                    "endSlide": "slide_2_2_2.png",
+                    "sequenceName": "2_2 Installation of pfSense on Virtualization Platform - Proxmox"
+                },
+                {
+                    "video": "Download pfSense ISO Image.mp4",
+                    "startSlide": "slide_2_3_1.png",
+                    "endSlide": "slide_2_3_2.png",
+                    "sequenceName": "2_3 Download pfSense ISO Image"
+                },
+                {
+                    "video": "Step-by-Step Guide to Downloading and Installing VirtualBox.mp4",
+                    "startSlide": "slide_2_4_1.png",
+                    "endSlide": "slide_2_4_2.png",
+                    "sequenceName": "2_4 Step-by-Step Guide to Downloading and Installing VirtualBox"
+                },
+                {
+                    "video": "Network Diagram - VirtualBox Explanation.mp4",
+                    "startSlide": "slide_2_5_1.png",
+                    "endSlide": "slide_2_5_2.png",
+                    "sequenceName": "2_5 Network Diagram - VirtualBox Explanation"
+                },
+                {
+                    "video": "Networking in VirtualBox.mp4",
+                    "startSlide": "slide_2_6_1.png",
+                    "endSlide": "slide_2_6_2.png",
+                    "sequenceName": "2_6 Networking in VirtualBox"
+                },
+                {
+                    "video": "pfSense Installation on VirtualBox.mp4",
+                    "startSlide": "slide_2_7_1.png",
+                    "endSlide": "slide_2_7_2.png",
+                    "sequenceName": "2_7 pfSense Installation on VirtualBox"
+                }
+            ]
+        },
+        {
+            "section": "Section 3",
+            "sequences": [
+                {
+                    "video": "Installing pfSense on Dedicated Hardware.mp4",
+                    "startSlide": "slide_3_1_1.png",
+                    "endSlide": "slide_3_1_2.png",
+                    "sequenceName": "3_1 Installing pfSense on Dedicated Hardware"
+                },
+                {
+                    "video": "pfSense Command Line Basic Configuration.mp4",
+                    "startSlide": "slide_3_2_1.png",
+                    "endSlide": "slide_3_2_2.png",
+                    "sequenceName": "3_2 pfSense Command Line Basic Configuration"
+                },
+                {
+                    "video": "pfSense Web Configurator Basic Configuration Wizard.mp4",
+                    "startSlide": "slide_3_3_1.png",
+                    "endSlide": "slide_3_3_2.png",
+                    "sequenceName": "3_3 pfSense Web Configurator Basic Configuration Wizard"
+                }
+            ]
+        }
+    ]
+}
