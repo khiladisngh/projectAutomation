@@ -12,14 +12,17 @@
 // Determine the path separator based on the operating system
 var PATH_SEPARATOR = Folder.fs === "Windows" ? "\\" : "/";
 
+// Project path
+var PROJECT_DIR_PATH = "D:" + PATH_SEPARATOR + "ResearchAndDevelopment" + PATH_SEPARATOR + "Development" + PATH_SEPARATOR + "adobeExtendedScripting" + PATH_SEPARATOR + "projectAutomation"
+
 // Paths Configuration
 var CONFIG = {
-    projectDirPath: "D:" + PATH_SEPARATOR + "ResearchAndDevelopment" + PATH_SEPARATOR + "Development" + PATH_SEPARATOR + "adobeExtendedScripting" + PATH_SEPARATOR + "sarthak",
-    projectFilePath: "D:" + PATH_SEPARATOR + "ResearchAndDevelopment" + PATH_SEPARATOR + "Development" + PATH_SEPARATOR + "adobeExtendedScripting" + PATH_SEPARATOR + "sarthak" + PATH_SEPARATOR + "project" + PATH_SEPARATOR + "project.prproj",
-    videoFolderPath: "D:" + PATH_SEPARATOR + "ResearchAndDevelopment" + PATH_SEPARATOR + "Development" + PATH_SEPARATOR + "adobeExtendedScripting" + PATH_SEPARATOR + "sarthak" + PATH_SEPARATOR + "source" + PATH_SEPARATOR + "videos",
-    slideFolderPath: "D:" + PATH_SEPARATOR + "ResearchAndDevelopment" + PATH_SEPARATOR + "Development" + PATH_SEPARATOR + "adobeExtendedScripting" + PATH_SEPARATOR + "sarthak" + PATH_SEPARATOR + "source" + PATH_SEPARATOR + "slides",
-    jsonFilePath: "D:" + PATH_SEPARATOR + "ResearchAndDevelopment" + PATH_SEPARATOR + "Development" + PATH_SEPARATOR + "adobeExtendedScripting" + PATH_SEPARATOR + "sarthak" + PATH_SEPARATOR + "scripts" + PATH_SEPARATOR + "sequence_mapping.json",
-    logFilePath: "D:" + PATH_SEPARATOR + "ResearchAndDevelopment" + PATH_SEPARATOR + "Development" + PATH_SEPARATOR + "adobeExtendedScripting" + PATH_SEPARATOR + "sarthak" + PATH_SEPARATOR + "scripts" + PATH_SEPARATOR + "script_log.txt" // Path to the external log file
+    projectDirPath: "D:" + PATH_SEPARATOR + "ResearchAndDevelopment" + PATH_SEPARATOR + "Development" + PATH_SEPARATOR + "adobeExtendedScripting" + PATH_SEPARATOR + "projectAutomation",
+    projectFilePath: PROJECT_DIR_PATH + PATH_SEPARATOR + "project" + PATH_SEPARATOR + "project.prproj",
+    videoFolderPath: PROJECT_DIR_PATH + PATH_SEPARATOR + "source" + PATH_SEPARATOR + "videos",
+    slideFolderPath: PROJECT_DIR_PATH + PATH_SEPARATOR + "source" + PATH_SEPARATOR + "slides",
+    jsonFilePath: PROJECT_DIR_PATH + PATH_SEPARATOR + "scripts" + PATH_SEPARATOR + "sequence_mapping.json",
+    logFilePath: PROJECT_DIR_PATH + PATH_SEPARATOR + "scripts" + PATH_SEPARATOR + "script_log.txt" // Path to the external log file
 };
 
 // Logging Types with Prefixes
