@@ -87,8 +87,8 @@
             "sequences": [
                 {
                     "video": "Installing pfSense on Dedicated Hardware.mp4",
-                    "startSlide": "slide_3_1_1.png",
-                    "endSlide": "slide_3_1_2.png",
+                    "startSlide": "Slide1.png",
+                    "endSlide": "Slide2.png",
                     "sequenceName": "3_1 Installing pfSense on Dedicated Hardware"
                 },
                 {
