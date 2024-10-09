@@ -412,9 +412,9 @@ function processJSONData(data, videoBin, slideBin, sequenceBin) {
 
             for (var j = 0; j < section.sequences.length; j++) {
                 var sequenceData = section.sequences[j];
-                videoFilesToImport.push(CONFIG.videoFolderPath + PATH_SEPARATOR + sequenceData.video);
-                slideFilesToImport.push(CONFIG.slideFolderPath + PATH_SEPARATOR + sequenceData.startSlide);
-                slideFilesToImport.push(CONFIG.slideFolderPath + PATH_SEPARATOR + sequenceData.endSlide);
+                videoFilesToImport.push(CONFIG.videoFolderPath + "\\" + sequenceData.video);
+                slideFilesToImport.push(CONFIG.slideFolderPath + "\\" + sequenceData.startSlide);
+                slideFilesToImport.push(CONFIG.slideFolderPath + "\\" + sequenceData.endSlide);
             }
         }
 
@@ -445,9 +445,6 @@ function processJSONData(data, videoBin, slideBin, sequenceBin) {
             for (var j = 0; j < section.sequences.length; j++) {
                 var sequenceData = section.sequences[j];
                 try {
-                    var videoPath = CONFIG.videoFolderPath + PATH_SEPARATOR + sequenceData.video;
-                    var startSlidePath = CONFIG.slideFolderPath + PATH_SEPARATOR + sequenceData.startSlide;
-                    var endSlidePath = CONFIG.slideFolderPath + PATH_SEPARATOR + sequenceData.endSlide;
                     var sequenceName = sequenceData.sequenceName;
 
                     // Create Sequence
